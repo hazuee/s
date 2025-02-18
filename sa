@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Amazing Girlfriend</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f8f8f8; /* Light gray background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        h1 {
+            color: #333; /* Darker heading color */
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Prevents image from creating extra space */
+            margin: 20px auto; /* Center the image */
+            border-radius: 8px; /* Rounded corners for images */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for images */
+        }
+
+        .heart {
+            color: #ff6b6b; /* A nice red color for the heart */
+            font-size: 2em; /* Make the heart bigger */
+            animation: heartbeat 1s infinite alternate; /* Add a heartbeat animation */
+            display: inline-block; /* So we can control the animation */
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .message {
+          text-align: center;
+          font-style: italic;
+          color: #777;
+          margin-top: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>For My Dearest [Girlfriend's Name] <span class="heart">❤️</span></h1>
+
+        <p>This little website is just a small token of my appreciation for you.  You bring so much joy and happiness into my life, and I wanted to create something special just for you.</p>
+
+        <img src="https://www.quora.com/What-does-it-mean-when-someone-says-you-look-like-a-mix-of-two-or-more-people-Is-this-referring-to-physical-appearance-or-personality" alt="[Description of the image]">
+
+        <p>[Add more personalized messages here.  Talk about what you appreciate about her, special memories, inside jokes, etc.  The more personal, the better!  You can break up the text into multiple paragraphs.]</p>
+
+       <p>[You can add more images here if you like.  Just copy and paste the `<img>` tag and change the `src` and `alt` attributes.]</p>
+
+        <div class="message">Created with ❤️ just for you.</div>
+    </div>
+
+</body>
+</html>
